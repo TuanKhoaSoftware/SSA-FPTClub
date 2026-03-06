@@ -2,12 +2,13 @@
   "name": "my-project",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint ."
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "eslint .",
+  "vercel-build": "next build"
+},
   "dependencies": {
     "@google/genai": "^1.44.0",
     "@hookform/resolvers": "^3.9.1",
