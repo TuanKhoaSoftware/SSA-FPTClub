@@ -62,7 +62,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="FPT Clubs" />
         <meta name="msapplication-TileColor" content="#FF8C42" />
       </head>
-      <body className="font-sans antialiased">
+      <body className="font-sans antialiased safe-area-top safe-area-bottom">
         <PwaProvider />
         {children}
         <Analytics />

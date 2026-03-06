@@ -37,6 +37,16 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --safe-area-top: env(safe-area-inset-top);
+  --safe-area-bottom: env(safe-area-inset-bottom);
+}
+
+.safe-area-top {
+  padding-top: max(var(--safe-area-top), 0px);
+}
+
+.safe-area-bottom {
+  padding-bottom: max(var(--safe-area-bottom), 0px);
 }
 
 .dark {
